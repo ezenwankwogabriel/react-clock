@@ -1,0 +1,22 @@
+.clock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+  .circle {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+    background-color: #282C34;
+    border: 1rem solid #32363E;
+    margin-top: 50px;
+
+    // .innerCircle {
+    //   width: 250px;
+    //   height: 250px;
+    //   border-radius: 50%;
+    //   background-color: #000000;
+    //   margin: 26px;
+    // }
+  }
+}
